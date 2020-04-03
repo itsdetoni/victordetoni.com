@@ -11,7 +11,7 @@ module.exports = {
 
   templates: {
     Post: "/:title",
-    Tag: "/tag/:id"
+    Tag: "/tag/:id",
   },
 
   plugins: [
@@ -25,11 +25,11 @@ module.exports = {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           tags: {
             typeName: "Tag",
-            create: true
-          }
-        }
-      }
-    }
+            create: true,
+          },
+        },
+      },
+    },
   ],
 
   transformers: {
@@ -38,7 +38,7 @@ module.exports = {
       externalLinksTarget: "_blank",
       externalLinksRel: ["nofollow", "noopener", "noreferrer"],
       anchorClassName: "icon icon-link",
-      plugins: ["@gridsome/remark-prismjs"]
-    }
-  }
+      plugins: ["@gridsome/remark-prismjs"],
+    },
+  },
 };
