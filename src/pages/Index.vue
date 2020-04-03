@@ -44,10 +44,10 @@ import PostCard from "~/components/PostCard.vue";
 export default {
   components: {
     Author,
-    PostCard,
+    PostCard
   },
   metaInfo: {
-    title: "Home",
-  },
+    title: "Victor Detoni"
+  }
 };
 </script>
