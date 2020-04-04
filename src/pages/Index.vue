@@ -21,7 +21,7 @@ query {
       node {
         id
         title
-        date (format: "D. MMMM YYYY")
+        date (locale: "pt-br", format: "DD [de] MMMM [de] YYYY")
         timeToRead
         description
         cover_image (width: 770, height: 380, blur: 10)
@@ -47,7 +47,7 @@ export default {
     PostCard
   },
   metaInfo: {
-    title: "Victor Detoni"
+    title: "Home"
   }
 };
 </script>

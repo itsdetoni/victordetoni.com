@@ -16,7 +16,7 @@
     <p class="author__intro">
       Consultor de CRO na
       <a href="https://www.supersonic.ag">Supersonic</a><br />
-      Escrevo sobre CRO, UX e web analytics
+      Escrevo sobre UX, growth e web analytics
     </p>
 
     <p class="author__links">
